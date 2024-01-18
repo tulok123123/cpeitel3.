@@ -4,7 +4,7 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'KERVIN AMIEL JOSH K. CANLAS';
+const name = 'Marlon M Tungol.';
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home }) {
@@ -43,7 +43,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/joro.png"
+                src="/images/marlon.jpg"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
